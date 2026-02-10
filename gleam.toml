@@ -4,7 +4,7 @@ gleam = ">= 1.11.0"
 description = "A simple csv parser and generator written in gleam "
 
 licences = ["Apache-2.0"]
-repository = { type = "github", user = "bcpeinhardt", repo = "gsv" }
+repository = { type = "github", user = "giacomocavalieri", repo = "gsv" }
 
 [dependencies]
 gleam_stdlib = ">= 0.40.0 and < 1.0.0"
