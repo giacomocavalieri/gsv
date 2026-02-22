@@ -7,7 +7,7 @@ licences = ["Apache-2.0"]
 repository = { type = "github", user = "giacomocavalieri", repo = "gsv" }
 
 [dependencies]
-gleam_stdlib = ">= 0.40.0 and < 1.0.0"
+gleam_stdlib = ">= 0.69.0 and < 1.0.0"
 glearray = ">= 1.0.0 and < 3.0.0"
 splitter = ">= 1.0.0 and < 2.0.0"
 

@@ -1,3 +1,4 @@
+import gleam/int
 import gleam/io
 import gleam/list
 import gleam/string
@@ -19,17 +20,16 @@ pub fn main() {
 }
 
 fn generate_csv(lines: Int) -> String {
-  list.range(1, lines)
+  int.range(1, lines + 1, [], fn(acc, _) { [generate_line(), ..acc] })
   |> list.map(fn(_) { generate_line() })
   |> string.join(with: "\n")
 }
 
 fn generate_line() -> String {
-  list.range(1, 15)
-  |> list.map(fn(field_number) {
+  int.range(1, 16, [], fn(acc, field_number) {
     case field_number % 3 {
-      1 -> "\"wibble wobble\""
-      _ -> "wibble wobble woo"
+      1 -> ["\"wibble wobble\"", ..acc]
+      _ -> ["wibble wobble woo", ..acc]
     }
   })
   |> string.join(with: ",")
