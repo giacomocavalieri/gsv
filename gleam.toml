@@ -1,7 +1,6 @@
 name = "gsv"
-version = "5.0.0"
-gleam = ">= 1.11.0"
-description = "A simple csv parser and generator written in gleam "
+version = "5.0.1"
+description = "A simple csv parser and generator written in Gleam"
 
 licences = ["Apache-2.0"]
 repository = { type = "github", user = "giacomocavalieri", repo = "gsv" }
