@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.1.0 - 18 April 2026
+
+- Updated the `gleam_stdlib` constraint to allow using `v1.0.0`.
+
 ## v5.0.1 - 22 February 2026
 
 - Updated the `gleam_stdlib` dependency and dropped use of deprecated function.
