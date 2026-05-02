@@ -310,10 +310,10 @@ fn escaped_loop(
 /// // ])
 /// ```
 ///
-/// > Just list `to_lists` this implementation tries to stick as closely as
+/// > Just like `to_lists` this implementation tries to stick as closely as
 /// > possible to [RFC4180](https://www.ietf.org/rfc/rfc4180.txt).
-/// > You can look at `to_lists`' documentation to see how it differs from the
-/// > RFC.
+/// > You can look at the documentation for `to_lists` to see how it differs from
+/// > the RFC.
 ///
 pub fn to_dicts(
   input: String,
