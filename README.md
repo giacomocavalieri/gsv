@@ -28,5 +28,5 @@ lucy,gleam"
 To add this package to your Gleam project:
 
 ```sh
-gleam add gsv@4
+gleam add gsv@5
 ```
